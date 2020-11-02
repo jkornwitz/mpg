@@ -15,7 +15,7 @@ limitations under the License.
 */
 package main
 
-import "github.com/jkornwitz/mpg/cmd"
+import "mpg/cmd"
 
 func main() {
 	cmd.Execute()

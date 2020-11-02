@@ -31,9 +31,10 @@ var cfgFile string
 var rootCmd = &cobra.Command{
 	Use:   "mpg",
 	Short: "Bootstrap your new Microservice Project",
-	Long: `A convenient CLI application for bootstrapping your next microservice repository.
-
-mpg asp --protocol grpc --ci gitlab
+	Long: `A convenient CLI application for bootstrapping your next microservice project.
+	
+Initial support is planned for ASP .NET Core HTTP and gRPC microservices.`,
+	Example: `mpg asp --protocol grpc --ci gitlab
 mpg springboot --protocol http --ci circleci`,
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
